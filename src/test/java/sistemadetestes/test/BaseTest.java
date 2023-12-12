@@ -9,8 +9,8 @@ public abstract class BaseTest{
 	
 	protected static WebDriver driver;
 	//private static final String URL_BASE = "https://www.google.com";
-	private static final String URL_BASE = "file:///home/esc/eclipse-workspace/selenium-lab/sistema/login.html";
-	private static final String PATH_DRIVE = "src/test/resources/chromedriver";
+	private static final String URL_BASE = "http://127.0.0.1:5500/produtos.html?teste=123";
+	private static final String PATH_DRIVE = "src/test/resources/chromedriver.exe";
 	
 	@BeforeClass
 	public static void iniciar() {
